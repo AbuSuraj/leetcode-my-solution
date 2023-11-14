@@ -1,0 +1,6 @@
+1.tsc --init
+2. npm init -y
+3. npm i -D nodemon
+4. npm i ts-node-dev
+5. in package.json put this line     "start": "ts-node-dev --respawn --transpile-only index.ts",
+6. command to run automatically npx ts-node-dev --respawn src/function.ts
