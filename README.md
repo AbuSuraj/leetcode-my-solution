@@ -6,7 +6,7 @@ Welcome to my LeetCode solutions repository! Below, you'll find solutions to var
 
 Check out my LeetCode profile: [Abu_Suraj on LeetCode](https://leetcode.com/Abu_Suraj/)
 
- To set up and run this project locally, follow the steps below:
+ ## To set up and run this project locally, follow the steps below:
 1. Download typeScript from https://www.typescriptlang.org/download
 
 2. **Initialize TypeScript Configuration**
