@@ -4,7 +4,6 @@ function countElements(nums: number[]): number {
     let max : number = Math.max(...nums)
 
     nums.forEach((el)=>{
-        console.log(el);
         
         if(el<max && el > min)count++
     })
