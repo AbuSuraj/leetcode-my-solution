@@ -8,9 +8,7 @@ function minimumAbsDifference(arr: number[]): number[][] {
     let min =  Infinity;
     for(let i = 0; i <len-1; i++) {
         min = Math.min(min,arr[i+1]-arr[i]);
-        // if(arr[i+1]-arr[i] === diff){
-        //     ans.push([arr[i], arr[i + 1]])
-        // }
+       
     }
     for(let i = 0; i <len-1; i++) {
         
