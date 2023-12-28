@@ -28,4 +28,4 @@ function exampleFunction(...args:any) {
   
   const numbers = [1, 2, 3, 4];
   
-  exampleFunction(...numbers);
+  exampleFunction(...numbers5);
