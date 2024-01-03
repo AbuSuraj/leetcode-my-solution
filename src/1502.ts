@@ -10,13 +10,13 @@ function canMakeArithmeticProgression(arr: number[]): boolean {
 //    } 
 //    return true;
 //    console.log(diff);
-arr.sort((a,b)=>a-b);
-if (arr.length<3){return true;}
-let r: number = arr[1]-arr[0];
-for(let i=2;i<arr.length;i++){
-    if (arr[i]-arr[i-1]!=r){return false;} 
-}
-return true;
+  arr.sort((a,b)=>a-b);
+    if (arr.length<3){return true;}
+    let r: number = arr[1]-arr[0];
+    for(let i=2;i<arr.length;i++){
+        if (arr[i]-arr[i-1]!=r){return false;} 
+    }
+    return true;
    
 //   return diff.size === 1? true : false
 };
