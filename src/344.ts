@@ -2,7 +2,7 @@ function reverseString(s: string[]): void {
     // s.reverse()
     let j=0;
       
-    for(let  i= s.length - 1; i >= 0; i--){
+    for(let  i= s.length - 1; i >= j; i--){
        let temp = s[i]; 
         s[i] = s[j]
         s[j] = temp;

@@ -44,4 +44,13 @@ function jobScheduling(startTime: number[], endTime: number[], profit: number[])
      return -1; // No non-overlapping job found
  }
  console.log(jobScheduling([1,2,3,3],[3,4,5,6],[50,10,40,70]));
- 
+ interface TypeA  {
+    propertyA: string;
+    commonProperty: number;
+  };
+  
+  interface TypeA  {
+    propertyB: boolean;
+    commonProperty: number; // Shared property with TypeA
+  };
+  
