@@ -14,4 +14,4 @@ function sortedSquares(nums: number[]): number[] {
 return ans;
     
 }
-console.log(sortedSquares([-4,-1,0,3,10]));
+console.log(sortedSquares([2,11,4,1,5]));
