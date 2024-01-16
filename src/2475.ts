@@ -7,7 +7,6 @@ function unequalTriplets(nums: number[]): number {
             
             for(let k = j+1; k<len; k++){
                 if(nums[j] !== nums[k] && nums[i] !== nums[k]){count++;
-                    console.log('i, j, k ',nums[i], nums[j], nums[k]);
                 }
             }
         }
