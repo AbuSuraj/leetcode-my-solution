@@ -12,7 +12,7 @@ function diagonalSum(mat: number[][]): number {
  
     }
   }
-  console.log(mainDiagonal,maiDiagonal);
+
   
   return sum;  
 };
