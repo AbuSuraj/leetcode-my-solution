@@ -24,7 +24,7 @@
 
 //     return maxScore;
 // }
-
+ 
 function maxScore(s: string) {
     let maximum = Number.NEGATIVE_INFINITY;
     let onesAmount = 0;
