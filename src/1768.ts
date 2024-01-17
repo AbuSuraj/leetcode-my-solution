@@ -15,6 +15,8 @@ for(let i = 0; i < len; i++) {
 return ans
 };
 console.log(mergeAlternately('ab', 'pqrs'));
+
+// 01711781947
 // Declarative code to find the first even number greater than 5
 function findFirstEvenGreaterThanFiveDeclarative(numbers: number []) {
     return numbers.find((number: number) => number > 5 && number % 2 === 0);

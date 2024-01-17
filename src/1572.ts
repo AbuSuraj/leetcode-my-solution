@@ -4,13 +4,12 @@ function diagonalSum(mat: number[][]): number {
   const maiDiagonal: number[] = [];
   for (let i= 0;i<n; i++) {
     if(mat[i][i]!==undefined){
-         mainDiagonal.push(mat[i][i]);
+       
         sum += mat[i][i];
     }
     if(i !== n-1- i && mat[i][n-1-i] !== undefined){
         sum += mat[i][n-1-i];
-        maiDiagonal.push(mat[i][n-1-i])
-        
+ 
     }
   }
   console.log(mainDiagonal,maiDiagonal);

@@ -6,7 +6,7 @@ function arithmeticTriplets(nums: number[], diff: number): number {
     for (let i = 0; i < nums.length; i++) {
         mp.set(nums[i], true);
     }
-
+//    4,5,6,7,8,9
     // For every element, check if there exist both numbers (elm + diff) and (elm - diff) inside the map. If yes, then increment cnt.
     for (let i = 0; i < nums.length; i++) {
         if (mp.has(nums[i] - diff) && mp.has(nums[i] + diff)) {

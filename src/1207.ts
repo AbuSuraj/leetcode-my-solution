@@ -10,7 +10,7 @@ for(let n of arr){
     }
 }
 for(let [index, value] of occuranceMap){
-    // console.log(index, value);
+
     if(uniqueMap.has(value)){
         console.log('ache');
       return false;
