@@ -5,8 +5,7 @@ function destCity(paths: string[][]): string {
         const [cityA , cityB ] = paths[i];
         city.set(cityA , cityB);
     }
-console.log('city ',city);
-
+ 
     for(let i = 0; i < len;i++){
         if (!city.has(paths[i][1])){
             return paths[i][1];
